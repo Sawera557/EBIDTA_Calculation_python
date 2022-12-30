@@ -1,8 +1,8 @@
 
 def match_keywords(filename, entities):
-    balance = ['assets', 'liabilities', 'equity']
+    balance = ['assets', 'liabilities', 'equity', 'taxes', 'income']
     income = ['revenue', 'total', 'expenses', 'cost', 'profit', 'income']
-    cashflow = ['operating activities', 'net', 'investing acitivies', 'financing activities']
+    cashflow = ['operating activities', 'net', 'amortization', 'Depreciation', 'investing acitivies', 'financing activities']
 
     if filename=="income":
         found = True
