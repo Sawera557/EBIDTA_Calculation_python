@@ -48,4 +48,4 @@ def calculate_ebitda01():
           return jsonify({'ebitda': ebitda})
 
 if __name__ == '__main__':
-  app.run(debug=False)
+  app.run(debug=True)
