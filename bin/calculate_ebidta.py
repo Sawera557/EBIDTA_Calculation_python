@@ -2,6 +2,11 @@ import openpyxl
 import re
 
 
+def calculate_ebitda(net_income, tot_expenxe, taxes, depreciation_amortization):
+    ebitda = float(net_income) - float(tot_expenxe) - float(taxes) - float(depreciation_amortization)
+    return ebitda
+
+
 def extract_money(text):
     money_pattern = r'\$?\s*[\d,]+(?:\.\d+)?'
     text = str(text)
