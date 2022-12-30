@@ -6,16 +6,16 @@
 - Then matches the pre-defined keywords for each file with extracted Entities
 - If any value is missing in any of the files it returns the response with particular file if missing particular value
 - Else it extracts the needed information: Net income, Income taxes payable, Total expense, Depreciation and Amortization from files
-- Calculate EBIDTA and return EBIDTA
+- Calculate EBITDA and return EBITDA
 
 
 
-## How to use EBIDTA_Calculation_python
+## How to use EBITDA_Calculation_python
 
 ### Step 01:
 Clone the repo in your system
 <!-- TOC -->
-    * git clone https://github.com/Sawera557/EBIDTA_Calculation_python.git
+    * git clone https://github.com/Sawera557/EBITDA_Calculation_python.git
 <!-- TOC -->
 ![img.png](bin/source/img.png)
 
